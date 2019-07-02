@@ -127,15 +127,6 @@ body {
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
-#nav {
- margin: 13px 0 0 0;
-}
-
-#nav ul li {
- list-style: none;
- margin-bottom: 20px;
-}
-
 .bottom-img{
     position:fixed;
     cursor:pointer;
@@ -175,7 +166,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #1EAEDB;
+  text-decoration:none;
+}
 
 a:hover {
   color: #0FA0CE;
@@ -183,22 +176,6 @@ a:hover {
   text-decoration: none;
 }
 
-#heading-name a {
-  color: gold;
-  text-decoration:none;
-}
-
-#heading-name a:hover {
-  font-weight: bold;
-}
-
-#nav a {
- text-decoration: none;
-}
-
-#nav a:hover {
- text-decoration: bold;
-}
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
