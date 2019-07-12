@@ -1,7 +1,7 @@
 #heading-name a:link {
   color: #DB4B1E;
   text-decoration: none;
-  font-size:1.75em;
+  font-size:1.45em;
   line-height: 1.2;
   font-family: Georgia;
 }
@@ -10,8 +10,16 @@
   font-weight: bold;
 }
 
+@media screen and (max-width: 480px) {
+  .row {
+    margin-left: 0;
+  }
+}
+
 #nav {
- margin: 13px 0 0 0;
+  width: 30.6666666667%;
+  z-index: 1;
+  position: fixed;
 }
 
 #nav ul li {
@@ -25,4 +33,9 @@
 
 #nav a:hover {
  text-decoration: bold;
+}
+
+#content {
+  margin-left: 30.6666666667%;
+  z-index: auto;
 }
