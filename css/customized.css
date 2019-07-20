@@ -16,6 +16,10 @@
   }
 }
 
+.row {
+  margin-left: 15%;
+}
+
 #nav {
   width: 30.6666666667%;
   z-index: 1;
