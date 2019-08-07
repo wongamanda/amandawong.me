@@ -7,11 +7,7 @@
 }
 
 #heading-name a:hover {
-  font-weight: bold;
-}
-
-.row {
-  margin-left: 15%;
+  font-weight: none;
 }
 
 #nav {
@@ -38,4 +34,21 @@
   padding-left: 40px;
   z-index: auto;
   padding-top: 45px;
+}
+
+.bottom-img {
+    position:fixed;
+    cursor:pointer;
+    height: 5%;
+    right: 4.5%;
+    bottom: 6%;
+    opacity: 0.8;
+}
+
+.bottom-text {
+  position: fixed;
+  font-size: 1.0rem;
+  text-align: right;
+  right: 4.5%;
+  bottom: 2px;
 }
